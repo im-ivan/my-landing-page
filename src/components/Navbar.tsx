@@ -18,18 +18,24 @@ export const Navbar = () => {
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
-              <li key={index}>
+              <li
+                key={index}
+                className="hover:text-orange-300 transition duration-200"
+              >
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="" className="py-2 px-3 border rounded-md">
+            <a
+              href=""
+              className="py-2 px-3 border rounded-md hover:text-neutral-800 transition duration-400"
+            >
               Sign in
             </a>
             <a
               href=""
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md hover:bg-gradient-to-r hover:from-orange-400 hover:to-orange-700 transition duration-400"
             >
               Create account
             </a>
