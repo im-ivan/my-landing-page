@@ -2,9 +2,9 @@ import { CheckCircle2 } from "lucide-react";
 import choseMeDog from "../assets/img/choseMeDog.png";
 import { checklistItems } from "../assets/constants";
 
-export const WorkFlowSection = () => {
+export const WorkflowSection = () => {
   return (
-    <div className="mt-20">
+    <div id="WorkflowSection" className="mt-20 scroll-mt-30">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
         Accelerate your{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">

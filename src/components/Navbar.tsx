@@ -9,7 +9,7 @@ export const Navbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-lg border-b border-neutral-700/80 bg-yellow-600">
+    <nav className="sticky top-0 z-50 backdrop-blur-lg border-b border-neutral-900/80 bg-yellow-600/80">
       <div className="container px4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">

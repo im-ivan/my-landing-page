@@ -1,10 +1,10 @@
-import { FeatureSection } from "./components/FeatureSection";
+import { FeaturesSection } from "./components/FeaturesSection";
 import { Footer } from "./components/Footer";
 import { HeroSection } from "./components/HeroSection";
 import { Navbar } from "./components/Navbar";
 import { PricingSection } from "./components/PricingSection";
 import { TestimonialsSection } from "./components/TestimonialsSection";
-import { WorkFlowSection } from "./components/WorkflowSection";
+import { WorkflowSection } from "./components/WorkflowSection";
 function App() {
   return (
     <>
@@ -13,10 +13,10 @@ function App() {
         <HeroSection />
       </div>
       <div className="feature-container max-w-7xl mx-auto pt-20 px-6">
-        <FeatureSection />
+        <FeaturesSection />
       </div>
       <div className="workflow-container max-w-7xl mx-auto pt-20 px-6">
-        <WorkFlowSection />
+        <WorkflowSection />
       </div>
       <div className="pricing-container max-w-7xl mx-auto pt-20 px-6">
         <PricingSection />
