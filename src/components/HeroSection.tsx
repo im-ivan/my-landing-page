@@ -28,7 +28,6 @@ export const HeroSection = () => {
       <div className="flex mt-10 justify-center">
         <video
           autoPlay
-          src=""
           loop
           muted
           className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4"
